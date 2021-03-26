@@ -52,7 +52,6 @@
 		alert(palavras[palavra]);
 	});
 	novaPalavra.addEventListener('click',(e)=>{
-		ajudas++;
 		if(ajudas >= 2){
 			e.target.setAttribute('disabled','disabled');
 			ajuda.setAttribute('disabled','disabled');
@@ -60,6 +59,7 @@
 			quadradinhos.innerHTML = '';
 			proximaRodada();
 		}
+		ajudas++;
 	});
 	ajuda.addEventListener('click',(e)=>{
 		ajudas++;
