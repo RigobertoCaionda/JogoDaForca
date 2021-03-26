@@ -1,0 +1,76 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	outline: 0;
+	font-family: 'Arial', sans-serif;
+	}
+	body{
+	background-color: #ccc;
+	}
+	.container{
+	padding-top: 150px;
+	width: 60%;
+	margin:auto;
+	}
+	.top{
+		display: flex;
+	}
+	.new-word--button button, .play-button button, .hint-button button, .help--button button, 
+	.restart--button button, .Instruction-button button{
+	padding:7px;
+	cursor: pointer;
+	margin-top: 5px;
+	}
+	.help--button button{
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.Instruction-button button{
+		margin-left: 5px;
+	}
+	.play-button button{
+	margin-right: 5px;
+	}
+	.modelo{
+	width: 30px;
+	height: 40px;
+	border:1px solid #000;
+	margin-top: 5px;
+	margin-right: 10px;
+	font-size: 1.4rem;
+	text-align: center;
+	line-height: 40px;
+	}
+	.modelo:last-child{
+	margin-right: 0px;
+	}
+	.modelo input{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-size: 1.4rem;
+	}
+	.quadradinhos{
+	display: flex;
+	}
+	.gameOptions{
+	display: flex;
+	align-items: flex-end;
+	}
+	.typed-letters{
+	display: flex;
+	margin-top: 10px;
+	}
+
+	@media(max-width: 425px){
+	.container{
+		width: 100%;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		}
+		.quadradinhos{
+		flex-direction: column;
+		}
+	}
