@@ -49,7 +49,7 @@
 	}
 	play.addEventListener('click', comecarJogo);
 	hintButton.addEventListener('click',()=>{
-		alert(palavras[palavra]);
+		alert('Aqui teremos dicas sobre a palavra!');
 	});
 	novaPalavra.addEventListener('click',(e)=>{
 		if(ajudas >= 2){

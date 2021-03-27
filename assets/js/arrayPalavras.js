@@ -5,4 +5,5 @@ let palavras = ['cachorro','balde','paralelepipedo','bonito','inteligente','caro
 'curiosidade','rei','jogar','headphones','mãe','rigoberto','pai','piano','pedra','cronograma', 'pastor',
 'mourinho','ivandra','silvio','grupo','treta','rico','pobre','divertido','profissão','destino','orgulho',
 'ferido','feriado','testa','estímulo','regra','papagaio','tendência','corvo','planta','criança','trombeta',
-'poluir','codificar','eurilândia','puto','jó','diafragma','horizontal','vertical','computador','carro'];
+'poluir','codificar','eurilândia','puto','jó','diafragma','horizontal','vertical','computador','carro',
+'alícia','viviane','palco'];
